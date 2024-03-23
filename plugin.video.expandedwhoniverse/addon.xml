@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.expandedwhoniverse" name="Expanded Whoniverse" version="1.0.0" provider-name="WhoOneIT">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.7.0"/>
+    <import addon="inputstream.adaptive" version="2.6.0"/>
+    <import addon="resource.images.iplayerwww" version="1.0.0"/>
+	<import addon="plugin.video.iplayerwww" version="4.0.17"/>
+	<import addon="plugin.video.youtube" version="7.0.3.2+matrix.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>audio video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Doctor Who Collection</summary>
+    <description lang="en_GB">Combined Doctor Who Collection. It is not created, maintained or in any way affiliated with the BBC. The add-on only provides an interface to access the BBC iPlayer website from Kodi.</description>
+    <platform>all</platform>
+    <license>GPL-2.0-or-later</license>
+    <disclaimer lang="en_GB">This add-on is a front end to the BBC iPlayer website. It is not an official BBC product. A UK TV Licence is required to watch the live, catch-up, or on-demand TV content.</disclaimer>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+    </assets>
+    <news>
+v1.0.0
+Initial Version
+   </news>
+  </extension>
+</addon>
