@@ -1,4 +1,4 @@
-# ExpandedWhoniverse
+# ExpandedWhoniverse Kodi Addon
 Kodi addon for accessing freely accessible Doctor Who content via BBC iPlayer, BBC Sounds and YouTube all in one place.
 
 Disclaimer: None of the content is sourced by me, this is solely hosted on BBC iPlayer and YouTube by others, therefore content can be taken down without warning. All efforts have been taken to ensure this addon doesn't break copyright laws. Please contact me if you have any questions or requests.
