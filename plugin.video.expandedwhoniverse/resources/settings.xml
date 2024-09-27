@@ -1,0 +1,33 @@
+<settings>
+    <category label="General">
+        <!-- General settings go here -->
+        <setting id="settings_display_images" type="bool" label="Display Images" default="true"/>
+		
+    </category>
+
+    <category label="Options">
+        <!-- Specific options for your add-on -->
+        <setting id="option_feature1" type="bool" label="Enable Feature 1" default="true"/>
+        <setting id="option_choice" type="enum" label="Choose Option" values="Option A|Option B|Option C" default="0"/>
+    </category>
+
+    <category label="Information">
+        <!-- Display a label with some information or instructions -->
+		<setting id="settings_info_label" type="lsep" label="Restarting the addon may be required for some changes to take effect."/>
+        <setting id="info_url" type="labelenum" values="https://youraddon.info" label="Your Addon Documentation"/>
+        <!-- The "labelenum" type is used here to make the URL appear selectable, though it won't open the link. -->
+        
+        <!-- Alternatively, use a button (action setting) to open a URL with a script (not directly supported for opening URLs) -->
+        <!-- <setting id="open_readme" type="action" label="Open Readme" action="RunScript(script.open.url, https://youraddon.info)" /> -->
+    </category>
+	
+	
+	
+	
+	
+    <category label="Debug Settings">
+        <setting id="debug_sortdate" type="bool" label="Enable Sort by Date (Not working, and I'm not sure why?)" default="false"/>
+		<setting id="debug_givedate1900" type="bool" label="Replace empty dates with 01/01/1900" default="false"/>
+    </category>
+
+</settings>
